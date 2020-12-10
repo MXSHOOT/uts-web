@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Petis Tuna Madura</title>
     </head>
     <body>
@@ -14,7 +17,8 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#" class="nav__link">Descripcion</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#2-section" class="nav__link">Descripcion</a></li>
                         <li class="nav__item"><a href="#l-section" class="nav__link">Buy</a></li>
                     </ul>
                 </div>
@@ -43,14 +47,63 @@
     
                 <div class="home__scroll">
                     <span class="home__scroll-text">Scroll down for more</span>
+                    <a href="#2-section"><img src="assets/icons/bx-mouse.svg" alt="" class="home__scroll-icon"></a>
+                </div>
+            </section>
+            <!--Descripcion-->
+            <section class="2-section" id="2-section">
+
+                <div class="container">
+        
+                    <div class="row section-title justify-content-center">
+                        <h2 class="section-title-heading">Descripcion</h2>
+                    </div>
+        
+                    <div class="row mt-5">
+        
+                        <div class="col-md-4">
+                            <div class="feature-block">
+                                <img src="assets/img/featureicon1.png" alt="">
+                                <h3 class="text-center">Komposisi Petis Madura</h3>
+                                <p>Petis Ikan mengandung energi sebesar 161 kilokalori, protein 20 gram, karbohidrat 24 gram, lemak 0,2 gram, kalsium 37 miligram, fosfor 36 miligram, dan zat besi 3 miligram..</p>
+                            </div>
+                            <div class="feature-block mt-5">
+                                <img src="assets/img/featureicon2.png" alt="">
+                                <h3 class="text-center">Vitamin Petis Madura</h3>
+                                <p>Selain itu di dalam Petis Ikan juga terkandung vitamin A sebanyak 0 IU, vitamin B1 0 miligram dan vitamin C 0 miligram.  Hasil tersebut didapat dari melakukan penelitian terhadap 100 gram Petis Ikan, dengan jumlah yang dapat dimakan sebanyak 100 %.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 device">
+                            <img src="assets/img/Petes.png"  class="petis2" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-block">
+                                <img src="assets/img/featureicon3.png" alt="">
+                                <h3 class="text-center">Proses Pembuatan</h3>
+                                <p>petis ikan terbuat dari kaldu ikan yang dimasak hingga pekat. Ikan yang disusun berlapis di tempayan, berselingan dengan taburan garam di setiap lapis dan kemudian dimasak dengan api kecil atau sedang. Saat matang, pindang-pindang ditiriskan sementara larutan kaldu ikan bercampur garam ditampung dan dimasak menjadi petis ikan. Karena kandungan garam yang tinggi pada pembuatan pindang ikan maka petis ikan pun rasanya sangat asin tidak seperti petis udang yang manis.</p>
+                            </div>
+                            <div class="feature-block mt-5">
+                                <img src="assets/img/featureicon4.png" alt="">
+                                <h3 class="text-center">Komposisi Petis Madura</h3>
+                                <p><ol><li>pati Ikan Tuna atau Ikan Tengiri</li>
+                                    <li>Air, gula & garam</li> 
+                                    <li> bumbu rempah-rempah pilihan (tanpa bahan Pengawet)</li>
+                                   </ol></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <span class="home__scroll-text">Scroll down for more</span>
                     <a href="#l-section"><img src="assets/icons/bx-mouse.svg" alt="" class="home__scroll-icon"></a>
                 </div>
             </section>
-
+        
             <!-- DETAILS PETIS -->
             <section class="l-section" id="l-section">
                 <div class="details">
                     <div class="details__content">
+                        <h2 class="section-title-heading">Buy Now!</h2>
                         <div class="details__box">
                             <span class="details__initial">TokoPedia</span><br>
                             <a href="https://www.tokopedia.com/search?st=product&q=petis&navsource=home">
@@ -76,7 +129,7 @@
                 </div>
             </section>
         </main>
-
+        
         <!-- GSAP -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 

@@ -17,9 +17,9 @@ showMenu('nav-toggle','nav-menu')
 gsap.from('.home__title', {opacity: 0, duration: 1.5, delay: .5, y: 50})
 gsap.from('.home__description', {opacity: 0, duration: 1.5, delay: .8, y: 50})
 
-/*IMG AIRPOD*/
-gsap.from('.airpod1', {opacity: 0, duration: 2, delay: 1.2, y: -40})
-gsap.from('.airpod2', {opacity: 0, duration: 2, delay: 1.4, y: 40})
+/*IMG petis*/
+gsap.from('.petis1', {opacity: 0, duration: 2, delay: 1.2, y: -40})
+gsap.from('.petis2', {opacity: 0, duration: 2, delay: 1.4, y: 40})
 
 /*NAV*/
 gsap.from('.nav__logo', {opacity:0, duration: 2.5, delay: 1.5, y: 25});
